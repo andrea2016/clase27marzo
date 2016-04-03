@@ -2,17 +2,20 @@
 	var dado = Math.floor(Math.random() * 6) + 1;
 
 */
-/*function tiradados(){
+function tiradados(){
 	var dado = Math.floor(Math.random() * 6) + 1;
 	return dado;
 }
 alert("Tiramos 3 dados: ");
-alert("El dado dice: " +tiradados());
+document.write("<p>El 1° dado dice: " +tiradados()+ "</p>");
+document.write("<p>El 2° dado dice: "+tiradados() + "</p>");
+document.write("<p>El 3° dado dice: "+tiradados() + "</p>");
+
 var multiplo= (2 * tiradados());
 alert("El valor de bonus es:  " + multiplo);
 
-console.log("Programa Terminado");*/
-
+console.log("Programa Terminado");
+/*
 function numAzarLimite(limite) {
 	var num=Math.floor(Math.random()*limite)+ 1;
 	return num;
@@ -20,24 +23,9 @@ function numAzarLimite(limite) {
 var numAzar= numAzarLimite(100);
 alert("Si esta la funcionando");
 document.write("" + numAzar);
+*/
 
-/*var num1=20;
-var num1=30;
-function max(num1, num2){
-	if(num1 > num2)
-	{
-		return num1;
-		document.write("" + num1);
-	}
-	else {
-		return num2;
-		document.write("" + num2);
-	}
-}
-max();
-alert("" + max());*/
-
-/**/
+/*creacion de funciones*/
 /*function saludo()
 {
 	var mensaje="Hola a todos";
@@ -46,7 +34,8 @@ alert("" + max());*/
 var mensaje="Chaito =)";
 saludo();
 alert(mensaje);
-saludo;*/
+saludo;
+
 /*****************************************************
 * Función isNaN evalua si una valor no es numérico.  *
 *													 *
