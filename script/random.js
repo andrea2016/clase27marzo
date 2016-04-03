@@ -47,12 +47,14 @@ var mensaje="Chaito =)";
 saludo();
 alert(mensaje);
 saludo;*/
-
+/*****************************************************
+* Función isNaN evalua si una valor no es numérico.  *
+*													 *
+*****************************************************/
 var num=9;
 if(isNaN(num))
 {
 	throw new Error("No es un numero valido");
 }
 else { num=num*5;}
-
-
+document.write(" <h3>La variable definida es numerica   " + num + "</h3>");
