@@ -1,10 +1,16 @@
 console.log("Inicio del programa =)"); 
+
+function mayor(limSup , limInf){
+	if((isNaN(limInf)||(isNaN(limSup))){
+		throw new Error("valor no es numerico");
+	}
+	var diferencia=parseInt(limSup)- parseInt(limInf);
+	var aleatorio = Math.floor(Math.random() * diferencia) + limInf;
+	return aleatorio;
+}
 var limSup=parseInt(prompt("Ingrese limite superior  "));
 var limInf=parseInt(prompt("Ingrese limite inferior "));
-var adivino=false;
-function mayor(){
-	var diferencia=parseInt(limSup)- parseInt(limInf);
-	var aleatorio = Math.floor(Math.random() * diferencia) + 1;
+alert("Su numero ")
 	if (diferencia === aleatorio) {
 	adivino = true;
 	alert("felicidades, adivinaste, ingresaste " + numeroIngresado + ", que fue el aleatorio entre 1 y 5");

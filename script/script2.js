@@ -1,5 +1,4 @@
 
-
 console.log("Inicio del programa");
 // OPERACIONES IF ELSE Y DATOS BOOLEAN
 var numeroIngresado = parseInt(prompt("ingrese un numero entre 1 y 5: "));
